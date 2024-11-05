@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    max-width: 1400px;
+    overflow-x: hidden;
+    font-family: "Montserrat", sans-serif;
+}
+#logo img, #imagen img{
+    width: 200px;
+    margin-right: 20px;
+}
+.nav{
+    display: flex;
+    justify-content: right;
+    width: 100%;
+    align-items: center;
+}
+.nav ul{
+    display: flex;
+    align-items: center;
+    height: 100px;
+}
+.nav ul a{
+    height: 100%;
+}
+.nav ul li{
+    margin-left: 60px;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    border-bottom: 5px solid transparent;
+}
+.nav ul li:hover{
+    color: #00361d;
+    
+}
+
+
+#cabecera{
+    display: flex;
+    align-items: center;
+    background-color: #0CAA5B;
+    height: 100px;
+    padding: 0 80px;
+    position: relative;
+    box-shadow: rgba(128, 128, 128, 0.726) 1px 1px 3px;
+}
+
+
+#cuerpo{
+    display: flex;
+    align-items: center;
+    margin-top: 7px;
+}
+
+
+/*contacto*/
+#contactomarco{
+    background-color:#0CAA5B;
+    width: 467px;
+    text-align: center;
+    margin: 5px;
+    padding: 15px;
+    border-radius: 30px;
+}
+.info{
+    text-align: left;
+    
+}
+th, td{
+    padding: 20px 9px;
+    color: white;
+}
+th{
+    color: #00361d;
+}
+td{
+    text-align: center;
+}
+
+
+
+/*escribenos*/
+#escribenos{
+    background-color: #0CAA5B;
+    border-radius: 30px;
+    width: 467px;
+    text-align: center;
+    margin: 5px;
+    padding: 15px;
+}
+
+#escribe h3, #contactomarco h3, #mapa h3{
+    color: #00361d;
+    font-size: 25px;
+}
+#datos{
+    text-align: left;
+    color: white;
+}
+form input{
+    width: 100%;
+    margin-top: 15px;
+}
+
+.btn{
+    font-family: "Montserrat", sans-serif;
+    background-color: #00361d;
+    border: transparent;
+    border-radius: 20px;
+    padding: 7px;
+    color: white;
+}
+.espacio{
+    font-family: "Montserrat", sans-serif;
+    background-color: white;
+    border: 0px;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+/*mapa*/
+#mapa{
+    background-color: #0CAA5B;
+    border-radius: 30px;
+    width: 467px;
+    text-align: center;
+    margin: 5px;
+    padding: 15px;
+}
+iframe{
+    border-radius: 20px;
+    
+}
+
+/*PIE DE PAGINA*/
+footer{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+#nacional{
+    background-color: #171B1E;
+    width: 30%;
+    text-align: center;
+    padding: 45px;
+    height: 350px;
+    padding-top: 75px;
+}
+#nacional p{
+    color: white;
+    font-size: 15px;
+}
+
+#tabla{
+    background-color: #00361d;
+    width: 70%;
+    text-align: center;
+    padding: 15px;
+    height: 350px;
+}
+.pie th, td{
+    color: white;
+    padding: 10px;
+}
+
+.pie{
+    margin: 40px;
+    align-items: center;
+    margin-left: 135px;
+}
